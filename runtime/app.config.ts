@@ -19,12 +19,12 @@ export default {
     },
   },
   entries: {
-    myApp: {
+    mines: {
       command: 'mines',
     },
   },
   commands: {
-    myApp: (app: IApplicationController) => {
+    mines: (app: IApplicationController) => {
       app.openWindow('main')
     },
   },
