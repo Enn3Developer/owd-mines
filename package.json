@@ -1,6 +1,6 @@
 {
   "name": "@enn3devplayer/owd-mines",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Minesweeper game for OWD",
   "keywords": [
     "owd-client",
