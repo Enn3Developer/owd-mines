@@ -2,14 +2,15 @@ export default {
   id: 'com.enn3developer.owd_mines',
   title: 'N Mines',
   singleton: true,
-  icon: 'meteor-icons:robot',
+  icon: 'mdi:bomb',
+  category: "games",
   windows: {
     main: {
       component: () => import('./components/Window/WindowTemplate.vue'),
       resizable: true,
       size: {
-        width: 640,
-        height: 480,
+        width: 1280,
+        height: 720,
       },
       position: {
         x: 400,
