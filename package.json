@@ -1,7 +1,7 @@
 {
-  "name": "owd-app-template",
+  "name": "owd-mines",
   "version": "0.0.1",
-  "description": "Template App for your Open Web Desktop client",
+  "description": "Minesweeper game for OWD",
   "keywords": [
     "owd-client",
     "owd-apps",
@@ -11,7 +11,7 @@
   "license": "MIT",
   "homepage": "https://github.com/owdproject/app-template",
   "author": {
-    "name": "Open Web Desktop Team",
-    "url": "https://github.com/owdproject"
+    "name": "Enn3",
+    "url": "https://www.enn3.ovh"
   }
 }
