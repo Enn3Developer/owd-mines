@@ -6,7 +6,7 @@ const props = defineProps<{
 
 <template>
   <Window v-bind="$props">
-    <iframe src="https://mines.enn3.ovh/" :width="640" :height="480" v-on:load="console.log(props.window)"></iframe>
+    <iframe src="https://mines.enn3.ovh/" :width="640" :height="480" v-on:load="console.log(props)"></iframe>
   </Window>
 </template>
 
