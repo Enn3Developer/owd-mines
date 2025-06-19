@@ -8,8 +8,8 @@ export default {
       component: () => import('./components/Window/WindowTemplate.vue'),
       resizable: true,
       size: {
-        width: 448,
-        height: 240,
+        width: 640,
+        height: 480,
       },
       position: {
         x: 400,
