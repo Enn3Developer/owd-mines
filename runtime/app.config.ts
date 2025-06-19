@@ -6,7 +6,7 @@ export default {
   windows: {
     main: {
       component: () => import('./components/Window/WindowTemplate.vue'),
-      resizable: false,
+      resizable: true,
       size: {
         width: 448,
         height: 240,
@@ -20,7 +20,7 @@ export default {
   },
   entries: {
     myApp: {
-      command: 'myApp',
+      command: 'mines',
     },
   },
   commands: {

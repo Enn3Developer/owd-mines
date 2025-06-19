@@ -3,7 +3,9 @@
 </script>
 
 <template>
-  <Window :content="{ padded: true }"> Hello! I'm an empty window. </Window>
+  <Window :content="{ padded: true }">
+    <iframe src="https://mines.enn3.ovh/"></iframe>
+  </Window>
 </template>
 
 <style scoped lang="scss"></style>
