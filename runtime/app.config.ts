@@ -1,6 +1,6 @@
 export default {
-  id: 'ext.domain.app',
-  title: 'Template',
+  id: 'com.enn3developer.owd_mines',
+  title: 'N Mines',
   singleton: true,
   icon: 'meteor-icons:robot',
   windows: {

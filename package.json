@@ -1,6 +1,6 @@
 {
   "name": "@enn3devplayer/owd-mines",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Minesweeper game for OWD",
   "keywords": [
     "owd-client",
@@ -9,6 +9,7 @@
   ],
   "license": "MIT",
   "homepage": "https://github.com/Enn3Developer/owd-mines",
+  "repository": "https://github.com/Enn3Developer/owd-mines",
   "author": {
     "name": "Enn3",
     "url": "https://www.enn3.ovh"

@@ -8,7 +8,7 @@ import { registerTailwindPath } from '@owdproject/core'
 
 export default defineNuxtModule({
   meta: {
-    name: 'owd-app-template',
+    name: 'owd-mines',
   },
   async setup(options, nuxt) {
     const { resolve } = createResolver(import.meta.url)
