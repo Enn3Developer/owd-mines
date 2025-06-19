@@ -5,8 +5,8 @@ const props = defineProps<{
 </script>
 
 <template>
-  <Window v-bind="$props">
-    <iframe src="https://mines.enn3.ovh/" :width="props.window.state.sizes.width" :height="props.window.state.sizes.height"></iframe>
+  <Window v-bind="$props" v-on:load="console.log(...props)">
+    <iframe src="https://mines.enn3.ovh/" :width="props.state.sizes.width" :height="props.state.sizes.height"></iframe>
   </Window>
 </template>
 
